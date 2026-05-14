@@ -26,6 +26,26 @@
             string a3Patient = ""; string a3Doctor = ""; string a3Date = ""; string a3Status =
             ""; bool a3Active = false;
             int appointmentCount = 0;
+
+            //Main Menu
+            Console.WriteLine("============================ ");
+            Console.WriteLine("CLINIC MANAGEMENT SYSTEM ");
+            Console.WriteLine("============================ ");
+            Console.WriteLine("1. Patient Management ");
+            Console.WriteLine("2. Doctor Management ");
+            Console.WriteLine("3. Appointment Management ");
+            Console.WriteLine("0. Exit ");
+            Console.WriteLine("============================ ");
+            Console.Write("Enter your choice: ");
+            int choice = int.Parse(Console.ReadLine());
+            switch (choice)
+            {
+                case 1:
+
+                    break;
+            }
+
+
         }
     }
 }
